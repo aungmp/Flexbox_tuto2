@@ -1,0 +1,59 @@
+body {
+    font-family: 'Sono', sans-serif;
+  }
+.container{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.box{
+    flex:1;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(241, 234, 234);
+    border-radius: 5px;
+}
+.level{
+    
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.montly-price{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.details{
+   
+    list-style: none;
+    margin: 0;
+    padding: 0;
+     
+     
+    
+}
+.details > li{
+    margin-bottom:  20px;
+}
+.singup > button{
+    background-color: rgb(243, 144, 57);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+    
+}
+@media (max-width:1250px){
+    .container{
+         
+        flex-direction: column;
+        height: 100%;
+
+
+    }
+}
